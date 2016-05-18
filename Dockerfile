@@ -10,4 +10,4 @@ RUN grails create-app --inplace --profile rest-api
 RUN grails dependency-report
 
 # Set Default Behavior
-ENTRYPOINT ["grails"]
+ENTRYPOINT ["/bin/bash"]
